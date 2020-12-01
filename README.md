@@ -1,12 +1,20 @@
-# Getting Started with Create React App
+### Technologies used and Notes
+Using React, Hooks, ContextAPI, CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The App used ContextAPI instead of Redux because ContextAPI cover all the requirments without the need for a third party library like Redux. 
 
-## Available Scripts
+The App asks questions according to the users answers, which allow the best results for the user to receive the answer for his/her situation.
 
-In the project directory, you can run:
+The data is provided in "data.js" normally the data can be fetched from an API and stored in a state. 
 
-### `yarn start`
+The design is simple and comfortable that uses nice color palette that give the user a great UI and UX.
+I am planning to work on the design for each card to actually look like an actual card, unfortunately I didn't have enough time to implement the design in mind. 
+
+The project depend on the source of infromation to take any decision, which allows it to be scalable for any future updates, each question simply have options and each option refer to the next question in case it was chosen.   
+
+
+
+### To run the app simply type `yarn start` in the Terminal
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -71,16 +79,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-### Technologies used
-Using React, Hooks, ContextAPI, CSS.
-
-The App used ContextAPI instead of Redux because ContextAPI cover all the requirments without the need for a third party library like Redux. 
-
-The App asks questions according to the users answers, which allow the best results for the user to receive the answer for his/her situation.
-
-The data is provided in "data.js" normally the data can be fetched from an API and stored in a state. 
-
-The design is simple and comfortable that uses nice color palette that give the user a great UI and UX.
-I am planning to work on the design for each card to actually look like an actual card, unfortunately I didn't have enough time to implement the design in mind. 
-
-The project depend on the source of infromation to take any decision, which allows it to be scalable for any future updates, each question simply have options and each option refer to the next question in case it was chosen.   
