@@ -1,0 +1,31 @@
+Monthly: 
+
+    do you have a bicycle? 
+        yes: Monthly ticket bicycle : price €105  
+        no: Montly ticket : price: €84 
+
+Weekly: 
+    7 day ticket : price €34 
+
+
+Day: 
+    
+    within 2 hours one direction 
+        
+            do you have a bicycle?
+                yes: Bike single trip : price €2
+                no: single trip : price €2.90 - reduced fare  €1.80
+
+    short trip 3 stations U/S-bahn or 6 stations trams/buses
+        Short trip ticket: price €1.90 - reduced fare  €1.40 
+
+    4 trips within 2 hours in one direction
+        4-trip ticket : price €9.00 - reduced fare  €5.60 
+
+    more than 4 trips: 
+        are you alone or with children under tha age of 6 
+            Day ticket €8.60 - reduced fare  €5.50
+
+        are you a group of up to 5 persons 
+            Small group day ticket €23.50
+        

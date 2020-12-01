@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Technologies used
+Using React, Hooks, ContextAPI, CSS.
+
+The App used ContextAPI instead of Redux because ContextAPI cover all the requirments without the need for a third party library like Redux. 
+
+The App asks questions according to the users answers, which allow the best results for the user to receive the answer for his/her situation.
+
+The data is provided in "data.js" normally the data can be fetched from an API and stored in a state. 
+
+The design is simple and comfortable that uses nice color palette that give the user a great UI and UX. 
+
+The project depend on the source of infromation to take any decision, which allows it to be scalable for any future updates, each question simply have options and each option refer to the next question in case it was chosen.   
